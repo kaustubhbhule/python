@@ -266,3 +266,24 @@ Merged and Sorted List: [1, 1, 2, 2, 3, 3, 4, 4, 5, 5]
 #
 
 Remove the Duplicate Items from a List
+
+```python
+Program:
+
+lst = [1,2,2,3,3,4,5]
+nlst = list(dict.fromkeys(lst))
+print("Original List:", lst)
+print("After Removing Duplicates:", lst)
+
+```
+
+```
+Output:
+
+Original List: [1, 2, 2, 3, 3, 4, 5]
+After Removing Duplicates: [1, 2, 2, 3, 3, 4, 5]
+
+```
+#
+
+
