@@ -1,6 +1,88 @@
 
 # Python Programs
 
+## Important
+
+Reverse Number
+
+```python
+Program:
+
+rev=0
+num = 12345
+while num > 0:
+    rem = num % 10
+    rev = (rev * 10) + rem
+    num = num // 10
+print("Reversed Number:", rev)
+
+```
+
+```
+Output:
+
+Reversed Number: 54321
+
+```
+#
+
+Palindrome Number
+
+```python
+Program:
+
+rev=0
+num = 151
+temp = num
+while num > 0:
+    rem = num % 10
+    rev = (rev * 10) + rem
+    num = num // 10
+
+if rev == temp:
+    print(temp, "is palindrome")
+else:
+    print(temp, "is not palindrome")
+
+```
+
+```
+Output:
+
+151 is palindrome
+
+```
+#
+
+Armstrong Number
+
+```python
+Program:
+
+sum=0
+num = 153
+temp = num
+while num > 0:
+    rem = num % 10
+    sum = sum + rem**3
+    num = num // 10
+
+if sum == temp:
+    print(temp, "is armstrong")
+else:
+    print(temp, "is not armstrong")
+
+```
+
+```
+Output:
+
+153 is armstrong
+
+```
+
+## Practicals
+
 Develop minimum 2 programs using Arithmetic Operators, exhibiting data type
 conversion.
 
@@ -285,5 +367,3 @@ After Removing Duplicates: [1, 2, 2, 3, 3, 4, 5]
 
 ```
 #
-
-
