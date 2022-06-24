@@ -80,6 +80,32 @@ Output:
 153 is armstrong
 
 ```
+#
+
+Prime number
+
+```python
+Program:
+
+num = 5
+count = 0
+for i in range(1,num+1):
+    if num%i==0:
+        count+=1
+if count <= 2:
+    print(num, "is prime")
+else:
+    print(num, "is not prime")
+```
+
+```
+Output:
+
+5 is prime
+
+```
+
+#
 
 ## Practicals
 
@@ -366,4 +392,3 @@ Original List: [1, 2, 2, 3, 3, 4, 5]
 After Removing Duplicates: [1, 2, 2, 3, 3, 4, 5]
 
 ```
-#
