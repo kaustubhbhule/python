@@ -32,6 +32,7 @@ Divison is 2.0
 <class 'int'>
 <class 'float'>
 ```
+#
 
 Develop programs using different data types (numbers, string, tuple, list, dictionary
 
@@ -69,6 +70,7 @@ Output:
 <class 'list'>
 <class 'dict'>
 ```
+#
 
 Calculate the Average of numbers in a given List.
 
@@ -89,6 +91,7 @@ Output:
 Average is 30.0
 
 ```
+#
 
 Exchange the Values of Two Numbers without Using a Temporary Variable.
 
@@ -113,6 +116,7 @@ Output:
 7 5
 
 ```
+#
 
 Write simple programs to calculate the area and perimeter of
 the Square, and the volume & perimeter of the cone.
@@ -138,6 +142,7 @@ Perimeter of square is 20
 Volume of cone is 130.83333333333334
 
 ```
+#
 
 Read Height in Centimeters and then convert the Height to Feet and Inches
 
@@ -158,6 +163,7 @@ Height in Feet is 5.249
 Height in Inches is 62.992
 
 ```
+#
 
 Find the Sum of Digits in a number.
 
@@ -180,6 +186,7 @@ Output:
 Sum of digits is 15
 
 ```
+#
 
 Print all Numbers in a Range Divisible by a Given Number
 
@@ -199,6 +206,7 @@ Output:
 8 16 24 32 40 48 56 64 72 80 88 96
 
 ```
+#
 
 Write a programs to:  
 (i) Create a list, add element to list, delete element from the list. 
@@ -233,6 +241,7 @@ Sorted List: [1, 2, 2, 3, 4, 5]
 Reversed List: [5, 4, 3, 2, 2, 1]
 
 ```
+#
 
 Merge Two Lists and Sort it.
 
@@ -254,6 +263,6 @@ Output:
 Merged and Sorted List: [1, 1, 2, 2, 3, 3, 4, 4, 5, 5]
 
 ```
-
+#
 
 Remove the Duplicate Items from a List
