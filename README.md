@@ -392,3 +392,56 @@ Original List: [1, 2, 2, 3, 3, 4, 5]
 After Removing Duplicates: [1, 2, 2, 3, 3, 4, 5]
 
 ```
+#
+
+Create dictionary, add element to dictionary, delete element from the dictionary.
+
+```python
+Program:
+
+dict = {'1': 'Mango', '2': 'Apple', '3': 'Banana'}
+print("Dictinory Created:",dict)
+
+dict.update({'4': 'Pineapple'})
+print("Item Added:",dict)
+
+dict.pop('4')
+print("Item Deleted:",dict)
+
+```
+
+```
+Output:
+
+Dictinory Created: {'1': 'Mango', '2': 'Apple', '3': 'Banana'}
+Item Added: {'1': 'Mango', '2': 'Apple', '3': 'Banana', '4': 'Pineapple'}
+Item Deleted: {'1': 'Mango', '2': 'Apple', '3': 'Banana'}
+
+```
+#
+
+Write a program to: \
+(i) To print all prime numbers from 1 to N.
+
+```python
+Program:
+
+upper = int(input("Enter upper range: "))
+print("Result:", end=" ")
+for i in range (1, upper+1):
+    if i > 1:
+        for j in range(2, i):
+            if i%j==0:
+                break
+        else:
+            print(i, end=" ")
+
+```
+
+``` 
+Output:
+
+Enter upper range: 10
+Result: 2 3 5 7
+
+```
